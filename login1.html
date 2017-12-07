@@ -1,0 +1,27 @@
+<html>
+<head><center><h1>INVIGILATION TRACKING SYSTEM</h1></center></head>
+<link rel="stylesheet" type="text/css" href="login.css">
+<div class="login-page">
+  
+  <div class="form">
+    <form class="register-form">
+	  
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form" action="process.php" method="POST">
+	  
+		 <select class="form-control"  name="se">
+		  <option value="1">FACULTY</option>
+		  <option value="2">ADMIN</option>
+		  </select>
+      <input type="text"  name="user" placeholder="username"/>
+      <input type="password"  name="pass" placeholder="password"/>
+      <button type="submit">login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>

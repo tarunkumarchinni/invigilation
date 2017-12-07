@@ -1,0 +1,25 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><link rel="stylesheet" type="text/css" href="login1_files/login.css">
+</head><body><div class="login-page">
+  <div class="form">
+    <form class="register-form">
+	  
+      <input placeholder="name" type="text">
+      <input placeholder="password" type="password">
+      <input placeholder="email address" type="text">
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form" action="process.php" method="POST">
+	  
+		 <select class="form-control" name="se">
+		  <option value="1" selected="selected">FACULTY</option>
+		  <option value="2">ADMIN</option>
+		  </select>
+      <input name="user" placeholder="username" value="14331f0532" type="text">
+      <input name="pass" placeholder="password" type="password">
+      <button type="submit">login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div></body></html>
